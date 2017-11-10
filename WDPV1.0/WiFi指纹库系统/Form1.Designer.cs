@@ -85,9 +85,9 @@
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.richTextBox1);
-            this.groupBox2.Location = new System.Drawing.Point(208, 28);
+            this.groupBox2.Location = new System.Drawing.Point(193, 28);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(611, 474);
+            this.groupBox2.Size = new System.Drawing.Size(626, 474);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -97,7 +97,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(6, 14);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.richTextBox1.Size = new System.Drawing.Size(599, 454);
+            this.richTextBox1.Size = new System.Drawing.Size(614, 454);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -138,6 +138,11 @@
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(55, 21);
             this.numericUpDown4.TabIndex = 1;
+            this.numericUpDown4.Value = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
             // 
             // numericUpDown3
             // 
@@ -145,6 +150,11 @@
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(55, 21);
             this.numericUpDown3.TabIndex = 0;
+            this.numericUpDown3.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
             // 
             // groupBox5
             // 
@@ -160,16 +170,46 @@
             // numericUpDown2
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(71, 21);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(55, 21);
             this.numericUpDown2.TabIndex = 1;
+            this.numericUpDown2.Value = new decimal(new int[] {
+            90,
+            0,
+            0,
+            -2147483648});
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(7, 21);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(55, 21);
             this.numericUpDown1.TabIndex = 0;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            -2147483648});
             // 
             // groupBox4
             // 
@@ -189,6 +229,7 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(55, 20);
             this.comboBox3.TabIndex = 1;
+            this.comboBox3.Text = "0";
             // 
             // comboBox2
             // 
@@ -197,6 +238,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(55, 20);
             this.comboBox2.TabIndex = 0;
+            this.comboBox2.Text = "1";
             // 
             // groupBox1
             // 
@@ -210,11 +252,19 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DisplayMember = "1";
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "高斯过程回归",
+            "双线性插值法",
+            "广义延拓插值",
+            "反距离权重法",
+            "克里金插值法"});
             this.comboBox1.Location = new System.Drawing.Point(6, 23);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
             this.comboBox1.TabIndex = 1;
+            this.comboBox1.Text = "高斯过程回归";
             // 
             // button5
             // 
