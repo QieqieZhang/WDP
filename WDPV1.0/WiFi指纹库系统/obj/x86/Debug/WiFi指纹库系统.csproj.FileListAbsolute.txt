@@ -47,3 +47,5 @@ E:\指纹库处理软件\WiFi指纹库软件V1.0\WiFi指纹库系统\obj\x86\Deb
 E:\指纹库处理软件\WiFi指纹库软件V1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.Frm_start.resources
 E:\指纹库处理软件\WiFi指纹库软件V1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.Properties.Resources.resources
 E:\指纹库处理软件\WiFi指纹库软件V1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.csproj.GenerateResource.Cache
+E:\GitHub\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.exe
+E:\GitHub\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.pdb
