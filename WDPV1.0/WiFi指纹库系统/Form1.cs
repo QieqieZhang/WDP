@@ -62,7 +62,7 @@ namespace WiFi指纹库系统
             }
         }
 
-        private void button7_Click(object sender, EventArgs e)
+       /* private void button7_Click(object sender, EventArgs e)
         {
             if (saveFileDialog1.ShowDialog() == DialogResult.OK && saveFileDialog1.FileName != "")
             {
@@ -86,7 +86,7 @@ namespace WiFi指纹库系统
             {
                 Writer.Close();
             }
-        }
+        }*/
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
@@ -136,6 +136,37 @@ namespace WiFi指纹库系统
         private void groupBox3_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void 生成指纹库ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK && saveFileDialog1.FileName != "")
+            {
+                myfile = saveFileDialog1.FileName;
+            }
+            StreamWriter Writer = new StreamWriter(myfile, false, Encoding.Default);
+            try
+            {
+                foreach (string line in richTextBox1.Lines)
+                {
+                    Writer.Write(line + "\n", Encoding.Default);
+
+                }
+                Writer.Flush();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("保存文件失败！" + ex.Message);
+            }
+            finally
+            {
+                Writer.Close();
+            }
         }
     }
 
