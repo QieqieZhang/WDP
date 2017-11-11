@@ -54,16 +54,16 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(140, 150);
+            this.label2.Location = new System.Drawing.Point(207, 162);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 23);
+            this.label2.Size = new System.Drawing.Size(119, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "label2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(82, 84);
+            this.pictureBox1.Location = new System.Drawing.Point(81, 79);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(38, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
