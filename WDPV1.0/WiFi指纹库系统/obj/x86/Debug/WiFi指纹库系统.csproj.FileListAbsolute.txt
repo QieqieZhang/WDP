@@ -47,6 +47,7 @@ E:\指纹库处理软件\WiFi指纹库软件V1.0\WiFi指纹库系统\obj\x86\Deb
 E:\指纹库处理软件\WiFi指纹库软件V1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.Frm_start.resources
 E:\指纹库处理软件\WiFi指纹库软件V1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.Properties.Resources.resources
 E:\指纹库处理软件\WiFi指纹库软件V1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 E:\GitHub\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.exe
 E:\GitHub\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.pdb
 E:\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.exe
@@ -59,3 +60,5 @@ E:\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.frmLogin.re
 E:\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.Frm_start.resources
 E:\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.Properties.Resources.resources
 E:\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.csproj.GenerateResource.Cache
+=======
+>>>>>>> parent of 511872b... Merge pull request #1 from zqq12345678/master
