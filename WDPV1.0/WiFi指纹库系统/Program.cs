@@ -15,7 +15,7 @@ namespace WiFi指纹库系统
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Frm_start());//启动界面一定要在主窗体之前  
+            Application.Run(new Frm_start());//启动界面一定要在主窗体之前  
             Application.Run(new FormMain());
         }
     }
