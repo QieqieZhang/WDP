@@ -1,10 +1,10 @@
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\bin\Debug\WiFi指纹库系统.exe
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\bin\Debug\WiFi指纹库系统.pdb
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.csprojResolveAssemblyReference.cache
-E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.FormMain.resources
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.frmLogin.resources
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.Frm_start.resources
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.Properties.Resources.resources
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.csproj.GenerateResource.Cache
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.exe
 E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.pdb
+E:\WDPV1.0\WDP\WDP\WDPV1.0\WiFi指纹库系统\obj\x86\Debug\WiFi指纹库系统.FormMain.resources

@@ -42,9 +42,9 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -111,9 +111,9 @@
             this.groupBox3.Controls.Add(this.groupBox5);
             this.groupBox3.Controls.Add(this.groupBox4);
             this.groupBox3.Controls.Add(this.groupBox1);
-            this.groupBox3.Controls.Add(this.button5);
-            this.groupBox3.Controls.Add(this.button8);
+            this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.button3);
+            this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Location = new System.Drawing.Point(12, 28);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(175, 474);
@@ -274,35 +274,37 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "高斯过程回归";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // button5
+            // button2
             // 
-            this.button5.Location = new System.Drawing.Point(23, 338);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(132, 40);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "生成指纹库";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(23, 409);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(132, 40);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "更新指纹库";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button2.Location = new System.Drawing.Point(23, 338);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(132, 40);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "生成指纹库";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(23, 26);
+            this.button3.Location = new System.Drawing.Point(23, 409);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(132, 40);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "导入原始数据";
+            this.button3.TabIndex = 5;
+            this.button3.Text = "更新指纹库";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(23, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(132, 40);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "导入原始数据";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // openFileDialog1
             // 
@@ -356,7 +358,7 @@
             this.生成指纹库ToolStripMenuItem.Name = "生成指纹库ToolStripMenuItem";
             this.生成指纹库ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.生成指纹库ToolStripMenuItem.Text = "保存(S)";
-            this.生成指纹库ToolStripMenuItem.Click += new System.EventHandler(this.生成指纹库ToolStripMenuItem_Click);
+            this.生成指纹库ToolStripMenuItem.Click += new System.EventHandler(this.保存ToolStripMenuItem_Click);
             // 
             // 生成测试报告ToolStripMenuItem
             // 
@@ -491,8 +493,8 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -508,7 +510,7 @@
         private System.Windows.Forms.ToolStripMenuItem 帮助HToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 广义延拓ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 反距离法ToolStripMenuItem;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel tsslTime;
